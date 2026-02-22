@@ -5,7 +5,7 @@
 #include <ArduinoJson.h>
 #include <Preferences.h>
 
-static const char* OLLAMA_URL = "https://esp32-llm.marinmandarinegirl.workers.dev/api/generate";
+static const char* OLLAMA_URL = "https://<your-worker-name>.<your-username>.workers.dev/api/generate";
 
 static const char* MODEL_NAME = "@cf/meta/llama-3.2-1b-instruct";
 
