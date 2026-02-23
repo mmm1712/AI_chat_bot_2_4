@@ -82,6 +82,12 @@ You can also manage the token later:
 - `SET_TOKEN <token>`
 - `CLEAR_TOKEN`
 
+## Cloudflare Worker (Reference)
+Example Worker code is included in:
+`cloudflare_worker/worker.js`
+
+You must set `AUTH_TOKEN` in your Cloudflare Worker environment variables.
+
 ## Mouse Control (Optional)
 You can control the UI with your laptop mouse over Wi‑Fi (no USB host needed).
 
