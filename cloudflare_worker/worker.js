@@ -22,7 +22,6 @@ export default {
       return Response.json({ error: "bad json" }, { status: 400 });
     }
 
-    // Larger model for longer/clearer responses
     const model = body.model || "@cf/meta/llama-3.1-8b-instruct";
     const prompt = body.prompt || "Reply in English with a full answer.";
 
